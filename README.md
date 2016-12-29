@@ -27,3 +27,6 @@ pytest --pdb
 # python library path set up
 install pytest-pythonpath
 add "python_paths = path1 path2" to pytest.ini
+
+# print logging in real time
+py.test --capture=no XXX.py
